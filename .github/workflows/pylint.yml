@@ -8,12 +8,12 @@ jobs:
     - uses: actions/checkout@v2
     - name: Тест создания файла
       run: |
-        chmod +x test_creation.sh
-        ./test_creation.sh
+        chmod +x test_creator.sh
+        ./test_creator.sh
     - name: Тест удаления файла
       run: |
-        chmod +x test_removing.sh
-        ./test_removing.sh
+        chmod +x test_remover.sh
+        ./test_remover.sh
     - name: Тест чтения в скрипте и вывода скрипта
       run: |
         chmod +x test_script.sh
